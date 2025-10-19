@@ -1,0 +1,170 @@
+/*# sourceMappingURL=input.scss.map */
+@use 'variables' as *;
+@use 'buttons' as *;
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: $textColor;
+}
+
+.container {
+    max-width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section1 {
+    background-color: #F7F8F9;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1450px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+    a {
+        font-size: 18px;
+        text-decoration: none;
+    }
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+@mixin flex-center($g) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $g;
+}
+
+@mixin flex-center2($g) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $g;
+}
+
+main {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $thidrColor;
+    width: 1140px;
+    height: 568px;
+    border-radius: $mainBorder;
+    margin-bottom: 50px;
+    @include flex-center(20px)
+}
+
+.img1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.img2 {
+    position: absolute;
+    left: 970px;
+    top: 20px;
+}
+
+.img3 {
+    position: absolute;
+    left: 20px;
+    top: 450px;
+}
+
+.img4 {
+    position: absolute;
+    top: 406px;
+    left: 980px;
+}
+
+
+.inputs {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.texter, .text1 {
+    color: #8896AB;
+}
+
+.text1 {
+    font-size: 20px;
+}
+
+.heading1 {
+    width: 62px;
+    height: 22px;
+    background-color: #22C55E;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    border-radius: $mainBorder;
+    @include flex-center(0px)
+
+}
+
+// SECTION2
+
+.section2 {
+    position: relative;
+
+
+    @include flex-center(20px)
+}
+
+.pattern {
+    position: absolute; 
+    left: 0;
+    width: 1440px;
+}
+
+.heading2 {
+    color: #BBC3CF;
+    font-style: 16px;
+    font-weight: 400;
+}
+
+.imgs, .heading2 {
+    z-index: 900;
+    @include flex-center2(100px)
+}
+
+.wave {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 1440px;
+}
