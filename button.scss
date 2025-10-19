@@ -1,0 +1,49 @@
+@use 'variables' as *;
+
+.button {
+    background-color: $mainColor;
+    border: transparent;
+}
+
+.signUp {
+    height: 36px;
+    width: 86px;
+    background-color: $mainColor;
+    font-size: 14px;
+    color: white;
+    border-radius: $mainBorder;
+    border: transparent;
+}
+
+.logIn {
+    background-color: transparent;
+    border: transparent;
+    font-size: 14px;
+}
+
+.access {
+    width: 207px;
+    height: 56px;
+    background-color: $mainColor;
+    font-size: 18px;
+    color: white;
+    border-radius: 7px;
+    border: transparent;
+}
+
+.inputter {
+    width: 320px;
+    height: 56px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.email {
+    border: transparent;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
