@@ -168,3 +168,109 @@ h1 {
     left: 0px;
     width: 1440px;
 }
+
+// SECTION3
+
+.section3 {
+    margin-top: 200px;
+    @include flex-center(30px)
+}
+
+.features {
+    background-color: #DCFCE7;
+    color: #22C55E;
+    width: 74px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.heading3 {
+    color: #2A3342;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.text2 {
+    color: #556987;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.top-wrapper, .bottom-wrapper {
+    display: flex;
+    gap: 100px;
+}
+
+.crm-wrapper {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    @include flex-center(200px)
+}
+
+.card {
+    width: 359px;
+    height: 69px;
+    .imgg {
+        background-color: $mainColor;
+        border-radius: $mainBorder;
+        .icon-imgs {
+            padding: 20px;
+            border-radius: 20px;
+        }
+        @include flex-center(10px)
+
+    }
+    .headingCrm {
+        color: black;
+    }
+    .text3 {
+        text-align: center;
+    }
+    @include flex-center(20px)
+}
+
+.learn-wrapper {
+    width: 1140px;
+    height: 289px;
+    background-color: #1C232D;
+    border-radius: 7px;
+    @include flex-center2(200px)
+}
+
+.heading4 {
+    color: white;
+    font-size: 36px;
+}
+
+.text3 {
+    font-size: 20px;
+}
+
+.buttons-wrapper2 {
+    @include flex-center2(20px)
+}
+
+.btn1 {
+    width: 160px;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    background-color: #22C55E;  
+    border: transparent;
+
+}
+
+.btn2 {
+    width: 160px;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #2A3342;  
+    border: transparent;
+}
