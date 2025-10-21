@@ -366,3 +366,37 @@ h1 {
     @include flex-center(20px);
     align-items:start;
 }
+
+// SECTION5 {
+
+.section5 {
+    padding-top: 100px;
+    @include flex-center(30px);
+
+}
+
+.text {
+    text-align: start;
+    font-size: 20px;
+    color: #556987;
+    font-weight: 500;
+}
+
+
+.num-wrapper {
+    padding-top: 100px;
+    @include flex-center2(150px)
+}
+
+.num {
+    font-size: 48px;
+    color: #22C55E;
+    font-weight: 700;
+}
+
+.num-wrapper--text {
+    text-align: center;
+    font-size: 20px;
+    color: #556987;
+    font-weight: 550;    
+}
