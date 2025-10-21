@@ -274,3 +274,95 @@ h1 {
     color: #2A3342;  
     border: transparent;
 }
+
+// SECTION4 
+
+.section4 {
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 300px;
+    width: 100%;
+    background-color: rgb(247, 248, 249);
+
+    .heading5 {
+        font-size: 36px;
+        color: #2A3342;
+    }
+}
+
+.under__wrapper {
+    padding-top: 50px;
+    @include flex-center(60px);
+    align-items: flex-start;
+}
+
+.under__wrapper--card {
+    @include flex-center2(15px)
+}
+
+.contenter {
+    @include flex-center(10px);
+    align-items: flex-start;
+}
+
+.imgg .icon-imgs {
+    padding: 20px;
+    border-radius: $mainBorder;
+    background-color: #22C55E;
+}
+
+.big-wrapper {
+    padding-top: 100px;
+    @include flex-center(150px)
+}
+
+.all-wrapper {
+    @include flex-center2(100px)
+}
+
+.all-wrapper2 {
+    flex-direction: row-reverse;
+}
+
+.apps-img {
+    margin-bottom: 40px;
+}
+
+.heading6 {
+    font-size: 24px;
+    color: #2A3342;
+    font-weight: 700;
+}
+
+.text5 {
+    font-size: 16px;
+    color: #556987;
+    font-weight: 600;
+}
+
+.img-wrapper {
+    position: relative;
+    .stripe {
+        position: absolute;
+        top: -40px;
+        left: -30px;
+    }
+    .dots {
+        position: absolute;
+        top: 500px;
+        left: 440px;
+    }
+}
+
+.heading {
+    font-size: 48px;
+    color: #2A3342;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+.right-side {
+    @include flex-center(20px);
+    align-items:start;
+}
