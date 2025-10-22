@@ -504,3 +504,18 @@ h1 {
     top: 890px;
     width: 100%;
 }
+
+// SECTION7
+
+.section7 {
+    padding-top: 200px;
+    @include flex-center(40px);
+    .buttons-wrapper2 {
+        .btn2 {
+            border: 1px solid gray;
+            background-color: white;
+        }
+    }
+}
+
+
