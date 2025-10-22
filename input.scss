@@ -400,3 +400,107 @@ h1 {
     color: #556987;
     font-weight: 550;    
 }
+
+// SECTION6
+
+.section6 {
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: rgb(42, 51, 66);
+    position: relative;
+    .bigWave {
+        width: 1513px;
+        position: absolute;
+        top: -100px;
+    }
+    padding-bottom: 100px;
+}
+
+
+.top-div {
+    @include flex-center2(100px);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lefts {
+    @include flex-center(20px);
+    align-items: start;
+    .heading {
+        color: white;
+        line-height: 1.5;
+    }
+    .text {
+        color: #8896AB;
+    }
+}
+
+.rights {
+    position: relative;
+
+    .play {
+        position: absolute;
+        top: 100px;
+        left: 200px;
+    }
+}
+
+
+.features2 {
+  background-color: #DCFCE7;
+  color: #14532D;
+  width: 106px;
+  height: 22px;
+  font-size: 12px;
+  font-weight: 450;
+  border-radius: 20px;
+  @include flex-center2(0px)
+}
+
+
+.bottom-div {
+    @include flex-center(30px);
+}
+
+.carder {
+    @include flex-center(15px);
+    align-items: start;
+}
+
+.first-line, .second-line {
+    width: 100%;
+    padding-top: 20px;
+    @include flex-center2(50px);
+    align-items: start;
+    justify-content: start;
+    padding-left:160px;
+}
+
+.numGreen {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #22C55E;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C232D;
+    @include flex-center(0px);
+}
+
+.text6 {
+    color: #8896AB;
+    font-size: 16px;
+}
+
+.heading7 {
+    font-size: 20px;
+    color: white;
+}
+
+.second_wave {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 890px;
+    width: 100%;
+}
